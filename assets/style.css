@@ -1,70 +1,98 @@
 @charset "UTF-8";
 /* nanum-gothic-coding-regular - latin_korean */
 * {
-  margin: 0;
-  padding: 0; }
+    margin: 0;
+    padding: 0;
+}
 
 html {
-  font-family: "Noto Serif SC", "Nanum Gothic Coding700", "Lucida Grande", "Trebuchet MS", "Hiragino Sans GB", "Segoe UI Light", "Segoe UI", "华文宋体", "Microsoft Jhenghei", sans-serif;
-  font-size: 18px; }
-  html body {
+    font-family: "Noto Serif SC", "Nanum Gothic Coding700", "Lucida Grande", "Trebuchet MS", "Hiragino Sans GB", "Segoe UI Light", "Segoe UI", "华文宋体", "Microsoft Jhenghei", sans-serif;
+    font-size: 24px;
+}
+
+html body {
     line-height: 1.6em;
     position: relative;
     min-width: 320px;
     max-width: 640px;
     margin: 0 auto;
-    padding: 10px;
-    padding-bottom: 50px;
-    background-color: #f0faf2; }
-    html body a {
-      padding-bottom: 0px;
-      text-decoration: none;
-      color: mediumblue;
-      border-bottom: 1px solid blue; }
-      html body a:hover {
-        color: white;
-        background-color: darkblue; }
-    html body ul {
-      list-style: none; }
+    padding: 10px 10px 50px;
+    background-color: #f0faf2;
+}
+
+html body a {
+    padding-bottom: 0px;
+    text-decoration: none;
+    color: mediumblue;
+    border-bottom: 1px solid blue;
+}
+
+html body a:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+html body ul {
+    list-style: none;
+}
 
 .hot {
-  font-size: 0.8rem;
-  color: #F00; }
+    font-size: 0.8rem;
+    color: #F00;
+}
 
 .small-icon {
-  display: inline-block;
-  /*width: 32px;*/
-  height: 32px; }
+    display: inline-block;
+    /*width: 32px;*/
+    height: 32px;
+}
 
 .nav {
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  /*background-color: rgba(0,0,0,0.2);*/
-  justify-content: flex-start;
-  padding: 5px 10px;
-  border-radius: 5px; }
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*background-color: rgba(0,0,0,0.2);*/
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 .page {
-  /*border: 2px dashed #ddd;*/ }
+    /*border: 2px dashed #ddd;*/
+}
 
 .clr-red {
-  font-size: 1rem;
-  color: orangered; }
+    font-size: 1rem;
+    color: orangered;
+}
 
 .sub-title {
-  font-weight: bolder;
-  padding: 2px;
-  background: #c9e8ff;
-  border: solid 1px #9ed0f1;
-  line-height: 150%; }
+    font-weight: bolder;
+    padding: 2px;
+    background: #c9e8ff;
+    border: solid 1px #9ed0f1;
+    line-height: 150%;
+}
 
 .footer {
-  padding: 2px;
-  background: #c9e8ff;
-  border: solid 1px #9ed0f1;
-  line-height: 150%; }
+    padding: 2px;
+    background: #c9e8ff;
+    border: solid 1px #9ed0f1;
+    line-height: 150%;
+}
+
+.jd {
+    font-size: 14px;
+    vertical-align: middle;
+    border: 2px solid darkorange;
+    color: gold;
+    background-color: orangered;
+    font-family: "975 圆体 Medium";
+    box-shadow: 1px 1px 3px rgb(152, 157, 152);
+    padding: 1px;
+    box-sizing: border-box;
+}
 
 /*# sourceMappingURL=style.css.map */
