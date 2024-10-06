@@ -84,14 +84,14 @@ html body ul {
 }
 
 .jd {
-    font-size: 14px;
+    font-size: 9px;
     vertical-align: middle;
-    border: 2px solid darkorange;
-    color: gold;
-    background-color: orangered;
+    border: 1px solid indianred;
+    color: indianred;
+    /* background-color: orangered; */
     font-family: "975 圆体 Medium";
-    box-shadow: 1px 1px 3px rgb(152, 157, 152);
-    padding: 1px;
+    /* box-shadow: 1px 1px 3px rgb(152, 157, 152); */
+    /* padding: 1px; */
     box-sizing: border-box;
 }
 
