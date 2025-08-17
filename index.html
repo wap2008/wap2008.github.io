@@ -38,12 +38,12 @@
 </head>
 
 <body>
-    <h3 class="sub-title">游戏 (2025.01.18)</h3>
+    <h3 class="sub-title">游戏 (2025.08.17)</h3>
     <input type="text" placeholder="请输入要搜索的游戏名" oninput="changeKey(this)">
     <ul class="page" id="gameList"></ul>
     <script>
     // 公告内容
-    var noticeText = "🧧新年快乐 <br /> ✨<a href=\"http://duobao2.vip/duobao/game\" target=\"_blank\">冲灵心法二区</a>复活啦！";
+    var noticeText; // "🧧新年快乐 <br /> ✨<a href=\"http://duobao2.vip/duobao/game\" target=\"_blank\">冲灵心法二区</a>复活啦！";
     // 新游Id列表
     var newGameList = ["142"];
     // 联系QQ群
@@ -137,6 +137,7 @@
         {
             "gameId": "016",
             "url": "https://mfhya.yiyutx.top/mfhyw/home/index.html",
+
             "gameName": "(壹语)魔法花园"
         },
         {
@@ -842,55 +843,96 @@
             "gameName": "(Heiha)小小鸟新区(小鸟情人)"
         },
         {
-            "gameId": "201.1",
+            "gameId": "144",
+            "url": "http://82.157.255.108/login",
+            "gameName": "(球球)愤怒小鸟"
+        },
+        {
+            "gameId": "145",
+            "url": "http://82.157.249.185/login",
+            "gameName": "(球球)愤怒小鸟"
+        },
+        {
+            "gameId": "146",
+            "url": "http://106.53.160.74:9888/yuanqi/register",
+            "gameName": "缘起四海"
+        },
+        {
+            "gameId": "147",
+            "url": "http://45.125.45.82:9999/login",
+            "gameName": "魔界之门-地狱c"
+        },
+        {
+            "gameId": "148",
+            "url": "http://61.191.55.176:56666/dl",
+            "gameName": "魔界三"
+        },
+        {
+            "gameId": "149",
+            "url": "http://117.72.123.195/wap/login.html",
+            "gameName": "梦想美食小镇"
+        },
+        {
+            "gameId": "201",
             "url": "https://appimg.qq.com/cardhd/cardh5/index.html?gamepf=wb",
             "gameName": "(腾讯)魔法卡片(H5版)"
         },
         {
-            "gameId": "201.2",
+            "gameId": "202",
             "url": "https://appimg2.qq.com/cardhd/Index.html",
             "gameName": "(腾讯)魔法卡片触屏版(H5版)"
         },
         {
-            "gameId": "202",
+            "gameId": "203",
             "url": "https://qq7g.com/game/gameInfo.action?gameConfigId=27",
             "gameName": "(I8家园)魔法花园(H5版)"
         },
         {
-            "gameId": "203",
+            "gameId": "204",
             "isHot": 1,
             "url": "http://mh.uuuyx.com/",
             "gameName": "迷你梦幻(H5)",
             "isClassic": 1,
         },
         {
-            "gameId": "204",
+            "gameId": "205",
             "isHot": 1,
             "url": "http://www.frogeyes.com.cn:5555/login",
             "gameName": "谁与争锋(H5版)"
         },
         {
-            "gameId": "205",
+            "gameId": "206",
             "url": "http://124.222.119.19/",
             "gameName": "江湖论道(mud)"
         },
         {
-            "gameId": "206",
+            "gameId": "207",
             "url": "https://appimg.qq.com/happyfarm/unity/web/index/release/index.html?",
             "gameName": "QQ农场(H5版)",
             "isClassic": 1,
         },
         {
-            "gameId": "207",
+            "gameId": "208",
             "isHot": 1,
             "url": "http://www.wamud.com/",
             "gameName": "武神传说(mud)",
             "isClassic": 1,
         },
         {
-            "gameId": "208",
+            "gameId": "209",
+            "isHot": 1,
+            "url": "http://www.wsmud2.com/",
+            "gameName": "武神传说2(mud)",
+        },
+        {
+            "gameId": "210",
             "url": "http://db.17xygame.cn/",
             "gameName": "夺宝中华(h5,mud,007版)"
+        },
+        {
+            "gameId": "211",
+            "url": "https://www.3kworlds.net/anicca/index.html",
+            "gameName": "安尼卡anicca(h5)"
         },
         {
             "gameId": "301",
@@ -914,7 +956,6 @@
             "url": "https://www.idleinfinity.cn/Home/Login?ReturnUrl=%2F",
             "gameName": "挂机无止境(网页版)",
             "isClassic": 1,
-
         },
         {
             "gameId": "404",
@@ -957,7 +998,7 @@
         for (var i in gameList) {
             var game = gameList[i];
             // console.log(game);
-            if(game.isStop == 1) continue;
+            if (game.isStop == 1) continue;
 
             var text = "<span class=\"game-id\">" + game.gameId + "</span> ";
             if (game.isHot == 1) {
@@ -1012,7 +1053,6 @@
         }
     }
 
-    // 
     init();
     </script>
 </body>
