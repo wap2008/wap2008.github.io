@@ -34,6 +34,23 @@
             border: 2px solid lightcoral;
             padding: 2px 6px;
         }
+        .notice{
+            animation: bgColorChange 10s infinite alternate;
+        }
+        @keyframes bgColorChange {
+            0% {
+                background-color: #FFF;
+                color: #000;
+            }
+            50% {
+                background-color: #888;
+                color: #333;
+            }
+            100% {
+                background-color: #000;
+                color: #FFF;
+            }
+        }
     </style>
 </head>
 
@@ -1147,6 +1164,7 @@
     function renderHeader() {
         if (noticeText) {
             var uiNotice = document.createElement("li");
+            uiNotice.className = 'notice';
             uiNotice.innerHTML = noticeText;
             uiGameList.appendChild(uiNotice);
         }
